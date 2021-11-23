@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Method</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Payment information -->
+        <div class="information">
+
+            <h2>Payment information</h2>
+
+            <!-- Input row1 block -->
+            <label for="CARD NUMBER"></label>
+            <input type="text" placeholder="**** **** **** ****">
+
+            <!-- Input1 row2 inline -->
+            <label for="CARD HOLDER"></label>
+            <input type="text" placeholder="Michael Jordan">
+
+            <!-- Input2 row2 inline -->
+            <label for="EXP.DATE"></label>
+            <input type="text" placeholder="03/19">
+
+            <!-- Input3 row2 inline -->
+            <label for="CVC"></label>
+            <input type="text" placeholder="***">
+
+        </div>
+
+        <!-- Billing address -->
+        <div class="address">
+
+            <h2>Billing address</h2>
+
+                <input type="radio">
+                <label>Same as the shipping address</label>
+                <hr>
+                <input type="radio">
+                <label>Use a different billing address</label>
+        </div>
+
+        <!-- Chocolate bar -->
+        <div class="coast">
+            <div>
+                <!-- Rasm -->
+                <div class="emblem">
+                    <img src="./img/order.jpg" alt="emblem">
+                </div>
+            <!-- Row1 -->
+                <h4>Chocolate bar</h4>
+                <!-- Coast -->
+                <h3>$2.49</h3>
+            </div>
+            <!-- Row2 -->
+            <div>
+                <h4>Subtotal</h4>
+                <h4 class="price">$4.98</h4>
+                <h4>Shipping</h4>
+                <h4 class="price">$3.00</h4>
+            </div>
+            <!-- Row3 -->
+            <div>
+                <h4>Total</h4>
+                <!-- Coast -->
+                <h3>$7.98</h3>
+            </div>
+
+            <a href="./">Return to shipping method</a>
+
+            <button>Complete order</button>
+        </div>
+    </div>
+    
+</body>
+</html>
