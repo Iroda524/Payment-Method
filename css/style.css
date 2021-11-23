@@ -1,3 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background-color: #fafafa;
+}
+body .information {
+  width: 50%;
+  height: 250px;
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+body .information h2 {
+  font-size: 1.75rem;
+  padding: 15px 0 0 15px;
+}
+body .information label {
+  font-size: 0.625rem;
+  color: #aaaaaa;
+  font-weight: 700;
+}
+body .address {
+  width: 50%;
+  height: 250px;
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+body .address h2 {
+  font-size: 1.75rem;
+  padding: 15px 0 0 15px;
+}
+body .coast {
+  width: 25%;
+  height: 220px;
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+body .coast h2 {
+  font-size: 1.75rem;
+  padding: 15px 0 0 15px;
+}
+body .emblem {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .emblem img {
+  width: 41px;
+  height: 35px;
+}
 
 /*# sourceMappingURL=style.css.map */
