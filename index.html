@@ -14,20 +14,28 @@
             <h2>Payment information</h2>
 
             <!-- Input row1 block -->
-            <label class="block">CARD NUMBER</label><br>
-            <input type="text" placeholder="**** **** **** ****">
+            <div class="block">
+                <label>CARD NUMBER</label><br>
+                <input type="text" placeholder=" **** **** **** ****">
+            </div>
 
             <!-- Input1 row2 inline -->
-            <label>CARD HOLDER</label><br>
-            <input type="text" placeholder="Michael Jordan">
+            <div class="inline_one">
+                <label>CARD HOLDER</label><br>
+                <input type="text" placeholder=" Michael Jordan">
+            </div>
 
             <!-- Input2 row2 inline -->
-            <label>EXP.DATE</label><br>
-            <input type="text" placeholder="03/19">
+            <div class="inline_two">
+                <label>EXP.DATE</label><br>
+                <input type="text" placeholder=" 03/19">
+            </div>
 
             <!-- Input3 row2 inline -->
-            <label>CVC</label><br>
-            <input type="text" placeholder="***">
+            <div class="inline_three">
+                <label>CVC</label><br>
+                <input type="text" placeholder=" ***">
+            </div>
 
         </div>
 
@@ -35,12 +43,15 @@
         <div class="address">
 
             <h2>Billing address</h2>
-
-                <input type="radio">
-                <label>Same as the shipping address</label>
-                <hr>
-                <input type="radio">
-                <label>Use a different billing address</label>
+                <div class="zero">
+                    <input type="radio">
+                    <label>Same as the shipping address</label>
+                </div>
+                
+                <div>
+                    <input type="radio">
+                    <label>Use a different billing address</label>
+                </div>
         </div>
 
         <!-- Chocolate bar -->

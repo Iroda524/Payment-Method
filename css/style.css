@@ -5,41 +5,112 @@
   box-sizing: border-box;
 }
 
+.zero {
+  border-bottom: 1px solid #dedede;
+}
+
 body {
   background-color: #fafafa;
 }
 body .information {
+  margin-top: 30px;
   width: 50%;
   height: 250px;
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  margin-top: 30px;
   background-color: white;
   border-radius: 5px;
 }
 body .information h2 {
   font-size: 1.75rem;
-  padding: 15px 0 0 15px;
+  padding: 20px 0 0 20px;
 }
 body .information label {
-  font-size: 0.625rem;
+  font-size: 0.7rem;
   color: #aaaaaa;
   font-weight: 700;
 }
+body .information .block {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 90%;
+  display: block;
+}
+body .information .block input {
+  width: 90%;
+  height: 35px;
+  border: 2px solid #dedede;
+  border-radius: 3px;
+}
+body .information .inline_one {
+  margin-left: 20px;
+  margin-top: 15px;
+  width: 50%;
+  display: inline-block;
+}
+body .information .inline_one input {
+  width: 90%;
+  height: 35px;
+  border: 2px solid #dedede;
+  border-radius: 3px;
+}
+body .information .inline_two {
+  margin-top: 15px;
+  width: 20%;
+  display: inline-block;
+}
+body .information .inline_two input {
+  width: 90%;
+  height: 35px;
+  border: 2px solid #dedede;
+  border-radius: 3px;
+}
+body .information .inline_three {
+  margin-top: 15px;
+  width: 20%;
+  display: inline-block;
+}
+body .information .inline_three input {
+  width: 90%;
+  height: 35px;
+  border: 2px solid #dedede;
+  border-radius: 3px;
+}
 body .address {
   width: 50%;
-  height: 250px;
+  height: 220px;
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  margin-top: 30px;
   background-color: white;
   border-radius: 5px;
 }
 body .address h2 {
   font-size: 1.75rem;
-  padding: 15px 0 0 15px;
+  padding: 20px 0 0 20px;
+}
+body .address h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  padding-top: 40px;
+}
+body .address div {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 46px;
+}
+body .address label {
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.801);
+}
+body .address input {
+  width: 21px;
+  height: 21px;
+  margin-right: 10px;
 }
 body .coast {
   width: 25%;
@@ -47,13 +118,12 @@ body .coast {
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  margin-top: 30px;
   background-color: white;
   border-radius: 5px;
 }
 body .coast h2 {
   font-size: 1.75rem;
-  padding: 15px 0 0 15px;
+  padding: 20px 0 0 20px;
 }
 body .emblem {
   width: 60px;
