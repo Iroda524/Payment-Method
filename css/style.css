@@ -19,6 +19,7 @@ body .information {
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  margin-top: 30px;
   background-color: white;
   border-radius: 5px;
 }
@@ -83,6 +84,7 @@ body .address {
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  margin-top: 30px;
   background-color: white;
   border-radius: 5px;
 }
@@ -118,12 +120,41 @@ body .coast {
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  margin-top: 30px;
   background-color: white;
   border-radius: 5px;
+  position: relative;
 }
 body .coast h2 {
   font-size: 1.75rem;
   padding: 20px 0 0 20px;
+}
+body .coast h3 {
+  position: absolute;
+  display: inline-block;
+}
+body .coast h4 {
+  display: inline-block;
+}
+body .coast .row_one {
+  font-size: 0.75rem;
+  width: 90%;
+  height: 70px;
+}
+body .coast .row_one h4 {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-size: 0.95rem;
+}
+body .coast .row_one h3 {
+  position: absolute;
+  top: 18px;
+  right: 15px;
+}
+body .coast .price {
+  position: absolute;
+  right: 20px;
 }
 body .emblem {
   width: 60px;
@@ -137,6 +168,9 @@ body .emblem {
 body .emblem img {
   width: 41px;
   height: 35px;
+}
+body a {
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

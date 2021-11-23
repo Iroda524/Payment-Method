@@ -16,6 +16,7 @@
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    margin-top: 30px;
     // margin-left: 80px;
     background-color: white;
     border-radius: 5px;
@@ -106,7 +107,36 @@ body{
     }
 
     .coast{
-        @include box(25%, 220px)
+        @include box(25%, 220px);
+        position: relative;
+        h3{
+            position: absolute;
+            display: inline-block;
+        }
+        h4{
+            display: inline-block;
+        }
+        .row_one{
+            // position: absolute;
+            font-size: 0.75rem;
+            width: 90%;
+            height: 70px;
+            h4{
+                position: absolute;
+                top: 20px;
+                left: 70px;
+                font-size: 0.95rem;
+            }
+            h3{
+                position: absolute;
+                top: 18px;
+                right: 15px;
+            }
+        }
+        .price{
+            position: absolute;
+            right: 20px;
+        }
     }
     .emblem{
         width: 60px;
@@ -120,5 +150,9 @@ body{
             width: 41px;
             height: 35px;
         }
+    }
+
+    a{
+        display: inline-block;
     }
 }
