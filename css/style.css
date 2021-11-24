@@ -23,6 +23,9 @@ body {
   margin-top: 30px;
   background-color: white;
   border-radius: 5px;
+  position: absolute;
+  left: 40px;
+  top: 20px;
 }
 .information h2 {
   font-size: 1.75rem;
@@ -89,6 +92,9 @@ body {
   margin-top: 30px;
   background-color: white;
   border-radius: 5px;
+  position: absolute;
+  left: 40px;
+  top: 290px;
   padding-left: 15px;
 }
 .address h2 {
@@ -96,7 +102,6 @@ body {
   padding: 20px 0 0 20px;
 }
 .address h2 {
-  margin-top: 40px;
   margin-bottom: 30px;
   padding-top: 30px;
 }
@@ -127,8 +132,13 @@ body {
   margin-top: 30px;
   background-color: white;
   border-radius: 5px;
+  position: absolute;
+  left: 55%;
+  top: 20px;
   position: relative;
+  display: grid;
   padding-left: 15px;
+  margin-left: 25px;
 }
 .coast h2 {
   font-size: 1.75rem;
@@ -147,8 +157,9 @@ body {
 .coast .row_one {
   font-size: 0.75rem;
   width: 90%;
-  height: 70px;
+  height: 75px;
   border-bottom: 1px solid #dedede;
+  padding-top: 9px;
 }
 .coast .row_one h4 {
   position: absolute;
@@ -163,7 +174,7 @@ body {
 }
 .coast .row_two {
   width: 90%;
-  height: 80px;
+  height: 70px;
   border-bottom: 1px solid #dedede;
   padding: 12px 0;
 }
@@ -173,18 +184,18 @@ body {
 }
 .coast .itogo {
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 15px;
 }
 .coast .summa {
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
   right: 10px;
 }
 
 .emblem {
-  width: 60px;
-  height: 60px;
+  width: 56px;
+  height: 56px;
   border: 1px solid #dedede;
   border-radius: 5px;
   display: flex;
@@ -192,11 +203,14 @@ body {
   align-items: center;
 }
 .emblem img {
-  width: 41px;
-  height: 35px;
+  width: 36.9px;
+  height: 31.5px;
 }
 
 .footer {
+  position: absolute;
+  left: 40px;
+  top: 260px;
   position: relative;
   width: 50%;
   height: 80px;
@@ -207,8 +221,10 @@ body {
   text-decoration-line: none;
   color: #5f86ed;
   font-size: 0.95rem;
+  font-family: "Roboto", sans-serif;
   position: absolute;
   top: 0;
+  display: block;
 }
 .footer button {
   width: 150px;

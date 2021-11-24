@@ -17,7 +17,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin-top: 30px;
-    // margin-left: 80px;
+    // position: relative;
     background-color: white;
     border-radius: 5px;
     h2{
@@ -42,13 +42,21 @@
     }
 }
 
+@mixin posit($l, $t){
+    position: absolute;
+    left: $l;
+    top: $t;
+}
+
 body{
     background-color: #fafafa;
+    // grid-template-columns: 1fr 1fr;
 }
     
 .information{
     margin-top: 30px;
     @include box(50%, 250px);
+    @include posit(40px, 20px);
     label{
         font-size: 0.7rem;
         color: #aaaaaa;
@@ -82,9 +90,10 @@ body{
     
     .address{
         @include box(50%, 200px);
+        @include posit(40px, 290px);
         padding-left: 15px;
         h2{
-            margin-top: 40px;
+            // margin-top: 40px;
             margin-bottom: 30px;
             padding-top: 30px;
         }
@@ -110,8 +119,11 @@ body{
     
 .coast{
     @include box(25%, 200px);
+    @include posit(55%, 20px);
     position: relative;
+    display: grid;
     padding-left: 15px;
+    margin-left: 25px;
     h3{
         position: absolute;
         display: inline-block;
@@ -126,8 +138,9 @@ body{
         // position: absolute;
         font-size: 0.75rem;
         width: 90%;
-        height: 70px;
+        height: 75px;
         border-bottom: 1px solid #dedede;
+        padding-top: 9px;
         h4{
             position: absolute;
             top: 20px;
@@ -143,7 +156,7 @@ body{
     
     .row_two{
         width: 90%;
-        height: 80px;
+        height: 70px;
         border-bottom: 1px solid #dedede;
         padding: 12px 0;
     }
@@ -154,30 +167,31 @@ body{
     }
     .itogo{
         position: absolute;
-        bottom: 15px;
+        bottom: 10px;
         left: 15px;
     }
     .summa{
         position: absolute;
-        bottom: 20px;
+        bottom: 15px;
         right: 10px;
     }
 }
 .emblem{
-    width: 60px;
-    height: 60px;
+    width: 56px;
+    height: 56px;
     border: 1px solid #dedede;
     border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     img{
-        width: 41px;
-        height: 35px;
+        width: 41px * 0.9;
+        height: 35px* 0.9;
     }
 }
 
 .footer{
+    @include posit(40px, 260px);
     position: relative;
     width: 50%;
     height: 80px;
@@ -189,8 +203,10 @@ body{
         color: #5f86ed;
         font-size: 0.95rem;
         // font-weight: bold;
+        font-family: 'Roboto', sans-serif;
         position: absolute;
         top: 0;
+        display: block;
     }
     button{
         width: 150px;
