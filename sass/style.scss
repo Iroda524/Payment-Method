@@ -44,15 +44,16 @@
 
 body{
     background-color: #fafafa;
+}
     
-    .information{
-        margin-top: 30px;
-        @include box(50%, 250px);
-        label{
-            font-size: 0.7rem;
-            color: #aaaaaa;
-            font-weight: 700;
-        }
+.information{
+    margin-top: 30px;
+    @include box(50%, 250px);
+    label{
+        font-size: 0.7rem;
+        color: #aaaaaa;
+        font-weight: 700;
+    }
         .block{
             margin-left: 20px;
             margin-top: 15px;
@@ -80,11 +81,12 @@ body{
     }
     
     .address{
-        @include box(50%, 220px);
+        @include box(50%, 200px);
+        padding-left: 15px;
         h2{
             margin-top: 40px;
             margin-bottom: 30px;
-            padding-top: 40px;
+            padding-top: 30px;
         }
         div{
             padding-left: 10px;
@@ -105,54 +107,99 @@ body{
             // border: 2px solid #e2e2e2;
         }
     }
-
-    .coast{
-        @include box(25%, 220px);
-        position: relative;
+    
+.coast{
+    @include box(25%, 200px);
+    position: relative;
+    padding-left: 15px;
+    h3{
+        position: absolute;
+        display: inline-block;
+    }
+    h4{
+        font-size: 0.85rem;
+        display: inline-block;
+        font-weight: bold;
+        padding: 6px 0;
+    }
+    .row_one{
+        // position: absolute;
+        font-size: 0.75rem;
+        width: 90%;
+        height: 70px;
+        border-bottom: 1px solid #dedede;
+        h4{
+            position: absolute;
+            top: 20px;
+            left: 85px;
+            font-size: 0.95rem;
+        }
         h3{
             position: absolute;
-            display: inline-block;
-        }
-        h4{
-            display: inline-block;
-        }
-        .row_one{
-            // position: absolute;
-            font-size: 0.75rem;
-            width: 90%;
-            height: 70px;
-            h4{
-                position: absolute;
-                top: 20px;
-                left: 70px;
-                font-size: 0.95rem;
-            }
-            h3{
-                position: absolute;
-                top: 18px;
-                right: 15px;
-            }
-        }
-        .price{
-            position: absolute;
-            right: 20px;
+            top: 25px;
+            right: 15px;
         }
     }
-    .emblem{
-        width: 60px;
-        height: 60px;
-        border: 1px solid #dedede;
-        border-radius: 5px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img{
-            width: 41px;
-            height: 35px;
-        }
+    
+    .row_two{
+        width: 90%;
+        height: 80px;
+        border-bottom: 1px solid #dedede;
+        padding: 12px 0;
     }
+    
+    .price{
+        position: absolute;
+        right: 20px;
+    }
+    .itogo{
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+    }
+    .summa{
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+    }
+}
+.emblem{
+    width: 60px;
+    height: 60px;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 41px;
+        height: 35px;
+    }
+}
 
+.footer{
+    position: relative;
+    width: 50%;
+    height: 80px;
+    // background-color: aquamarine;
+    display: block;
+    margin: 60px 0;
     a{
-        display: inline-block;
+        text-decoration-line: none;
+        color: #5f86ed;
+        font-size: 0.95rem;
+        // font-weight: bold;
+        position: absolute;
+        top: 0;
+    }
+    button{
+        width: 150px;
+        height: 40px;
+        background-color: #5f86ed;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        position: absolute;
+        right: 10px;
     }
 }

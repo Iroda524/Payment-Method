@@ -12,7 +12,8 @@
 body {
   background-color: #fafafa;
 }
-body .information {
+
+.information {
   margin-top: 30px;
   width: 50%;
   height: 250px;
@@ -23,100 +24,103 @@ body .information {
   background-color: white;
   border-radius: 5px;
 }
-body .information h2 {
+.information h2 {
   font-size: 1.75rem;
   padding: 20px 0 0 20px;
 }
-body .information label {
+.information label {
   font-size: 0.7rem;
   color: #aaaaaa;
   font-weight: 700;
 }
-body .information .block {
+.information .block {
   margin-left: 20px;
   margin-top: 15px;
   width: 90%;
   display: block;
 }
-body .information .block input {
+.information .block input {
   width: 90%;
   height: 35px;
   border: 2px solid #dedede;
   border-radius: 3px;
 }
-body .information .inline_one {
+.information .inline_one {
   margin-left: 20px;
   margin-top: 15px;
   width: 50%;
   display: inline-block;
 }
-body .information .inline_one input {
+.information .inline_one input {
   width: 90%;
   height: 35px;
   border: 2px solid #dedede;
   border-radius: 3px;
 }
-body .information .inline_two {
+.information .inline_two {
   margin-top: 15px;
   width: 20%;
   display: inline-block;
 }
-body .information .inline_two input {
+.information .inline_two input {
   width: 90%;
   height: 35px;
   border: 2px solid #dedede;
   border-radius: 3px;
 }
-body .information .inline_three {
+.information .inline_three {
   margin-top: 15px;
   width: 20%;
   display: inline-block;
 }
-body .information .inline_three input {
+.information .inline_three input {
   width: 90%;
   height: 35px;
   border: 2px solid #dedede;
   border-radius: 3px;
 }
-body .address {
+
+.address {
   width: 50%;
-  height: 220px;
+  height: 200px;
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin-top: 30px;
   background-color: white;
   border-radius: 5px;
+  padding-left: 15px;
 }
-body .address h2 {
+.address h2 {
   font-size: 1.75rem;
   padding: 20px 0 0 20px;
 }
-body .address h2 {
+.address h2 {
   margin-top: 40px;
   margin-bottom: 30px;
-  padding-top: 40px;
+  padding-top: 30px;
 }
-body .address div {
+.address div {
   padding-left: 10px;
   display: flex;
   align-items: center;
   width: 100%;
   height: 46px;
 }
-body .address label {
+.address label {
   font-size: 0.85rem;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.801);
 }
-body .address input {
+.address input {
   width: 21px;
   height: 21px;
   margin-right: 10px;
 }
-body .coast {
+
+.coast {
   width: 25%;
-  height: 220px;
+  height: 200px;
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -124,39 +128,61 @@ body .coast {
   background-color: white;
   border-radius: 5px;
   position: relative;
+  padding-left: 15px;
 }
-body .coast h2 {
+.coast h2 {
   font-size: 1.75rem;
   padding: 20px 0 0 20px;
 }
-body .coast h3 {
+.coast h3 {
   position: absolute;
   display: inline-block;
 }
-body .coast h4 {
+.coast h4 {
+  font-size: 0.85rem;
   display: inline-block;
+  font-weight: bold;
+  padding: 6px 0;
 }
-body .coast .row_one {
+.coast .row_one {
   font-size: 0.75rem;
   width: 90%;
   height: 70px;
+  border-bottom: 1px solid #dedede;
 }
-body .coast .row_one h4 {
+.coast .row_one h4 {
   position: absolute;
   top: 20px;
-  left: 70px;
+  left: 85px;
   font-size: 0.95rem;
 }
-body .coast .row_one h3 {
+.coast .row_one h3 {
   position: absolute;
-  top: 18px;
+  top: 25px;
   right: 15px;
 }
-body .coast .price {
+.coast .row_two {
+  width: 90%;
+  height: 80px;
+  border-bottom: 1px solid #dedede;
+  padding: 12px 0;
+}
+.coast .price {
   position: absolute;
   right: 20px;
 }
-body .emblem {
+.coast .itogo {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.coast .summa {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+
+.emblem {
   width: 60px;
   height: 60px;
   border: 1px solid #dedede;
@@ -165,12 +191,34 @@ body .emblem {
   justify-content: center;
   align-items: center;
 }
-body .emblem img {
+.emblem img {
   width: 41px;
   height: 35px;
 }
-body a {
-  display: inline-block;
+
+.footer {
+  position: relative;
+  width: 50%;
+  height: 80px;
+  display: block;
+  margin: 60px 0;
+}
+.footer a {
+  text-decoration-line: none;
+  color: #5f86ed;
+  font-size: 0.95rem;
+  position: absolute;
+  top: 0;
+}
+.footer button {
+  width: 150px;
+  height: 40px;
+  background-color: #5f86ed;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  position: absolute;
+  right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
